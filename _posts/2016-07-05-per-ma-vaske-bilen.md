@@ -1,6 +1,9 @@
 ---
 title: Per må vaske bilen
-date: '2016-07-05 09:23:32'
+date: '2016-07-05 09:23:00'
 layout: post
 draft: true
 ---
+Blablabla
+
+Maadfbøadfb kamdfblk amadflb
