@@ -18,12 +18,12 @@ layout: default
     {% endfor %}
   </ul>
 
+  <h1 class="page-heading">Folks</h1>
     
   <ul class="post-list">
-    <p>{{site.test}} må på plass</p>
       {% for user in site.data.users %}
       <li>
-        {{user.name}}
+        <span>{{user.name}}</span>
       </li>
       {% endfor %}
   </ul>
