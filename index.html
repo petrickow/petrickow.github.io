@@ -9,7 +9,7 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        {{ post.date | date: "%b %-d, %Y" }}
+        {{ post.date | date: "%-d %b %Y" }}
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -19,13 +19,14 @@ layout: default
   </ul>
 
     
-    <ul class="post-list">
-        {% for user in site.users %}
-        <li>
-        	{{user.name}}
-        </li>
-	{% endfor %}
-    </ul>
+  <ul class="post-list">
+    <p>{{site.test}} må på plass</p>
+      {% for user in site.data.users %}
+      <li>
+        {{user.name}}
+      </li>
+      {% endfor %}
+  </ul>
   <p class="rss-subscribe"><br></p>
 
 </div>
