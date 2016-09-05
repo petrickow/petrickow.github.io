@@ -1,5 +1,5 @@
 ---
-title: ''
+title: TacoBloggingBonanza
 layout: default
 ---
 <div class="home">
@@ -18,15 +18,29 @@ layout: default
     {% endfor %}
   </ul>
 
-  <h1 class="page-heading">Folks</h1>
+  <h1 class="page-heading">Projects</h1>
     
   <ul class="post-list">
-      {% for user in site.data.users %}
+      {% for project in site.data.projects %}
       <li>
-        <span>{{user.name}}</span>
+       	 <h3>
+            {{project.name}}
+          </h3>
+          <p>
+              {{project.description}}
+          </p>
       </li>
       {% endfor %}
   </ul>
-  <p class="rss-subscribe"><br></p>
+    
+    <h1 class="page-heading">Folks</h1>
+      <ul class="post-list">
+      {% for user in site.data.users %}
+      <li>
+        {{user.name}}
+      </li>
+      {% endfor %}
+  </ul>
+  <!--<p class="rss-subscribe"><br></p>-->
 
 </div>
