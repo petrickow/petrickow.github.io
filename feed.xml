@@ -6,9 +6,20 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Sep 2016 14:00:47 +0000</pubDate>
-    <lastBuildDate>Mon, 05 Sep 2016 14:00:47 +0000</lastBuildDate>
+    <pubDate>Tue, 29 Nov 2016 11:11:11 +0000</pubDate>
+    <lastBuildDate>Tue, 29 Nov 2016 11:11:11 +0000</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Steike</title>
+        <description>&lt;p&gt;Testing the new frontend for forestry… &lt;em&gt;Markdown&lt;/em&gt; dialects &lt;a href=&quot;http://www.spsresearch.no&quot;&gt;create&lt;/a&gt; a lot of confusion&lt;/p&gt;
+</description>
+        <pubDate>Tue, 29 Nov 2016 10:22:16 +0000</pubDate>
+        <link>/2016/11/29/steike.html</link>
+        <guid isPermaLink="true">/2016/11/29/steike.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
