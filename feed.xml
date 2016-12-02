@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Disorderly Dev Duck</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>Experimenting with jekkyl and forestry.io to see if it might be a good combination.
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 02 Dec 2016 11:10:01 +0000</pubDate>
-    <lastBuildDate>Fri, 02 Dec 2016 11:10:01 +0000</lastBuildDate>
+    <link>http://devduck.me/</link>
+    <atom:link href="http://devduck.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 02 Dec 2016 11:38:55 +0000</pubDate>
+    <lastBuildDate>Fri, 02 Dec 2016 11:38:55 +0000</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -15,8 +15,8 @@
         <description>&lt;p&gt;Not having spent much time with either, I won’t say much. Actually, I won’t say nothing at all, but still not much more than this paragraph.&lt;/p&gt;
 </description>
         <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
-        <link>/2016/11/29/steike.html</link>
-        <guid isPermaLink="true">/2016/11/29/steike.html</guid>
+        <link>http://devduck.me/2016/11/29/steike.html</link>
+        <guid isPermaLink="true">http://devduck.me/2016/11/29/steike.html</guid>
         
         
       </item>
@@ -39,13 +39,11 @@
 
 </description>
         <pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate>
-        <link>/jekyll/update/2016/06/05/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">/jekyll/update/2016/06/05/welcome-to-jekyll.html</guid>
+        <link>http://devduck.me/jekyll%20update/2016/06/05/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://devduck.me/jekyll%20update/2016/06/05/welcome-to-jekyll.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>jekyll update</category>
         
       </item>
     
