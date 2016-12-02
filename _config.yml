@@ -9,12 +9,14 @@
 title: Disorderly Dev Duck
 email: catod@ulrik.uio.no
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+    Experimenting with jekkyl and forestry.io to see if it
+    might be a good combination.
+#Write an awesome description for your new site here. You can edit this
+#line in _config.yml. It will appear in your document head meta (for
+#Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-#url: "http://petrickow.github.io/" # the base hostname & protocol for your site
-twitter_username: jekyllrb
+
+url: "http://devduck.me" # the base hostname & protocol for your site
 github_username:  petrickow
 
 test: fesk
