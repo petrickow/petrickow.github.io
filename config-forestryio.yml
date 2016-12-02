@@ -2,10 +2,9 @@
 title: Disorderly Dev Duck
 email: catod@ulrik.uio.no
 description: |
-  Experimenting with jekkyl and forestry.io to see if it might be a good combination.
+  Experimenting with jekyll and forestry.io to see if it might be a good combination for future projects.
 baseurl: ''
 url: http://devduck.me
 github_username: petrickow
-test: fesk
 markdown: kramdown
 timezone: Europe/Paris
