@@ -7,7 +7,7 @@
 
 # Site settings
 title: Disorderly Dev Duck
-email: catod (at) ulrik (dot) uio (dot) no
+email: catod (at) ulrik.uio.no
 description: > # this means to ignore newlines until "baseurl:"
     Experimenting with jekyll and forestry.io to see if it
     might be a good combination for future projects.
