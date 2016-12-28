@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Home</title>
-  <meta name="description" content="Experimenting with jekyll and forestry.io to see if it might be a good combination for future projects.
-">
+  <title>Deployment and control in Forestry.io</title>
+  <meta name="description" content="So far I’ve been very happy with the use of forestry when it comes to managing my simple site. Hosting it on github makes it easy to deploy changes fast as I...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://devduck.me/">
+  <link rel="canonical" href="http://devduck.me/jekyll%20forestry.io/2016/12/08/forestry-io.html">
   <link rel="alternate" type="application/rss+xml" title="Disorderly Dev Duck" href="http://devduck.me/feed.xml">
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -68,15 +67,31 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <p>Thanks for dropping by this work in progress site, made using
-  <a href="http://jekyllrb.com/">Jekyll</a>,
-  <a href="https://pages.github.com/">github pages</a> and
-  <a href="https://forestry.io">forestry.io</a>.
-</p>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-<p>
-  My <a href="/blog">blog</a> will mostly contain notes and scribbles mostly for my own musing. The site as a whole will function as a landing page for my professional and hobby portfolio for both programming and music.</p><p><br></p><p>
-</p>
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Deployment and control in Forestry.io</h1>
+        <p class="post-meta"><time datetime="2016-12-08T09:55:04+00:00" itemprop="datePublished">Dec 8, 2016</time></p>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+        
+            <p>
+                <b>My experience so far using forestry.io as a CMS for my little side project.</b>
+            </p>
+
+        
+        <p>
+            <p>So far I’ve been very happy with the use of forestry when it comes to managing my simple site. Hosting it on github makes it easy to deploy changes fast as I learn Jekyll and Liquid and the content creation tools provided by forestry are neat. More on that later.</p>
+
+<p>One decision I made early on which did not jive well with the CMS was to host the site from a branch in the source repository. My current structure is to have forestry get the changes from my ‘master’ branch, generate the site and push it to a ‘publish’ branch.</p>
+
+<p>It seems Github pages can build Jekyll projects, rendering the need for a system such as forestry.io to build it unnecessary. Forestry is still nice to have for content management, but it would be nice to be able to disable the deploy-step (update: just found the button).</p>
+
+        </p>
+    </div>
+
+</article>
 
       </div>
     </div>
