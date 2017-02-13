@@ -2,9 +2,9 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    border-top: 1em solid $grey-color-dark;
+    border-bottom: 0.4em solid $grey-color-light;
+    min-height: 4em;
 
     background-color: $color-primary-4;
 
@@ -19,6 +19,8 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+
+    //border-bottom: 1px solid $color-secondary-1-0;
 
     &,
     &:visited {
@@ -37,10 +39,23 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        min-width: 25px;
+        background-color: $color-secondary-1-4;
+
+            padding: 0.5em 0.5em 0.5em 0.5em;
+
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px; // future proofing
+            -khtml-border-radius: 10px; // for old Konqueror browsers
+
+        @include media-query($on-laptop) {
+
+        }
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 20px;
+            //margin-right: 20px;
         }
     }
 
@@ -94,13 +109,11 @@
     }
 }
 
-
-
 /**
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $color-secondary-1-0;
     padding: $spacing-unit 0;
 }
 
