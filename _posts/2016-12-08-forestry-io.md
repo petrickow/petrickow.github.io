@@ -1,6 +1,6 @@
 ---
 title: Deployment and control in Forestry.io
-date: '2016-12-08 09:55:04'
+date: '2016-12-08 00:00:00'
 layout: post
 categories:
 - jekyll forestry.io
