@@ -51,7 +51,7 @@ GEM
     html-pipeline (2.5.0)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    i18n (0.7.0)
+    i18n (0.8.0)
     jekyll (3.1.6)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
@@ -134,4 +134,4 @@ DEPENDENCIES
   github-pages (= 85)
 
 BUNDLED WITH
-   1.14.3
+   1.14.4
