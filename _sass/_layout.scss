@@ -182,8 +182,28 @@
 /**
  * Page content
  */
+.tags {
+  flex: 1;
+  border-left: dotted 1px darkslategray;
+
+  @include media-query($on-palm) {
+    display: block;
+    border-left: 0px;
+    border-top: dotted 1px darkslategray;
+  }
+}
+
 .page-content {
-    padding: $spacing-unit 0;
+  padding: $spacing-unit 0;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+
+  @include media-query($on-palm) {
+    display: block;
+  }
 }
 
 .page-heading {
@@ -191,12 +211,13 @@
 }
 
 .post-list {
-    margin-left: 0;
-    list-style: none;
+  flex: 3;
+  margin-left: 0;
+  list-style: none;
 
-    > li {
-        margin-bottom: $spacing-unit;
-    }
+  > li {
+    margin-bottom: $spacing-unit;
+  }
 }
 
 .post-meta {

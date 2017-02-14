@@ -3,18 +3,19 @@ title: Blog
 layout: default
 permalink: "/blog/"
 ---
-<div class="home">
-    <h1 class="page-heading">Posts</h1>
+<h1 class="page-heading">Posts</h1>
 
+<div role="main" class="home">
     <ul class="post-list">
         {% for post in site.posts %}
         <li>
 
-            {{ post.date | date: "%-d %b %Y" }}
+        {{ post.date | date: "%-d %b %Y" }}
 
             <h2>
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
+
             <p>
                 {{post.ingress}}
             </p>
@@ -24,4 +25,9 @@ permalink: "/blog/"
         {% endfor %}
     </ul>
 
+    <div class="tags">
+        Tags ...
+    </div>
 </div>
+
+
