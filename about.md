@@ -5,7 +5,7 @@ permalink: "/about/"
 ---
 ## Me
 
-My name is Cato, this is my blog and home page. The site is mostly a place for me to write down rants, things I learn, observations and other miscellaneous debris. 
+This site is mostly a place for me (Cato) to write down rants, things I learn, observations and other miscellaneous debris. 
 
 ## Programming
 
