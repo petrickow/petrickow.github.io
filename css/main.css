@@ -269,13 +269,30 @@ pre {
 /**
  * Page content
  */
+.tags {
+  flex: 1;
+  border-left: dotted 1px darkslategray; }
+  @media screen and (max-width: 600px) {
+    .tags {
+      display: block;
+      border-left: 0px;
+      border-top: dotted 1px darkslategray; } }
+
 .page-content {
   padding: 30px 0; }
+
+.home {
+  display: flex;
+  flex-direction: row; }
+  @media screen and (max-width: 600px) {
+    .home {
+      display: block; } }
 
 .page-heading {
   font-size: 20px; }
 
 .post-list {
+  flex: 3;
   margin-left: 0;
   list-style: none; }
   .post-list > li {
