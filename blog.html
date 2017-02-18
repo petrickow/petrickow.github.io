@@ -14,7 +14,7 @@ permalink: "/blog/"
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
 
-            {% if forloop.index0 < 2 and post.ingress %}
+            {% if post.ingress %} <!--Only the two first contain the ingress: "forloop.index0 < 2 and"-->
             <p>
                 {{post.ingress}}
             </p>
@@ -25,8 +25,11 @@ permalink: "/blog/"
 
     <div class="tags">
         Tags ...
-        <p>{{ site.data.tags}}</p>
-
+        <ul>
+        {% for tag in site.data.tags %}
+                <li>{{ tag.tag }}</li>
+        {% endfor %}
+        </ul>
     </div>
 </div>
 
