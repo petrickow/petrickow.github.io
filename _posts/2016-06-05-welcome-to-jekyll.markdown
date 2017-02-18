@@ -3,7 +3,7 @@ title: Welcome to Jekyll!
 date: '2016-06-05 00:00:00'
 layout: post
 categories:
-- jekyll update
+- jekyll updates
 ingress:
 - This section is the ingress in what <i>could</i> be described as a vague attempt
   at making stuff newsworthy
