@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Deployment and control in Forestry.io</title>
-  <meta name="description" content="So far I’ve been very happy with the use of forestry when it comes to managing my simple site. Hosting it on github makes it easy to deploy changes fast as I...">
+  <title>Welcome to Jekyll!</title>
+  <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://devduck.me/jekyll%20forestry.io/2016/12/08/forestry-io.html">
+  <link rel="canonical" href="http://devduck.me/2016/06/05/welcome-to-jekyll.html">
   <link rel="alternate" type="application/rss+xml" title="Dev Duck" href="http://devduck.me/feed.xml">
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -70,23 +70,36 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Deployment and control in Forestry.io</h1>
-        <p class="post-meta"><time datetime="2016-12-08T00:00:00+00:00" itemprop="datePublished">Dec 8, 2016</time></p>
+        <h1 class="post-title" itemprop="name headline">Welcome to Jekyll!</h1>
+        <p class="post-meta"><time datetime="2016-06-05T00:00:00+00:00" itemprop="datePublished">Jun 5, 2016</time></p>
     </header>
 
     <div class="post-content" itemprop="articleBody">
         
             <p>
-                <b>My experience so far using forestry.io as a CMS for my little side project.</b>
+                <b>This section is the ingress in what <i>could</i> be described as a vague attempt at making stuff newsworthydoes this work?</b>
             </p>
 
         
         <p>
-            <p>So far I’ve been very happy with the use of forestry when it comes to managing my simple site. Hosting it on github makes it easy to deploy changes fast as I learn Jekyll and Liquid and the content creation tools provided by forestry are neat. More on that later.</p>
+            <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
-<p>One decision I made early on which did not jive well with the CMS was to host the site from a branch in the source repository. My current structure is to have forestry get the changes from my ‘master’ branch, generate the site and push it to a ‘publish’ branch.</p>
+<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
 
-<p>It seems Github pages can build Jekyll projects, rendering the need for a system such as forestry.io to build it unnecessary. Forestry is still nice to have for content management, but it would be nice to be able to disable the deploy-step (update: just found the button).</p>
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">char</span><span class="o">*</span> <span class="n">args</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%s"</span><span class="p">,</span> <span class="n">args</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
 
         </p>
     </div>
@@ -124,7 +137,7 @@
           
         </ul>
       </div>
-s
+
       <div class="footer-col footer-col-3">
         <p>Experimenting with jekyll and forestry.io
 </p>
