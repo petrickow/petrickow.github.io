@@ -1,3 +1,26 @@
+@keyframes slidein {
+    from {
+        margin-left: 75%;
+        width: 100%; 
+        font-size: 0%
+
+    }
+    
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+        font-size: 100%
+
+    }
+}
+
+p {
+    overflow: hidden;
+    animation-duration: 0.3s;
+    animation-name: slidein;
+}
+
 /**
  * Site header
  */

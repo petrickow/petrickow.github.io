@@ -5,7 +5,7 @@ layout: post
 ingress:
 - My experience so far using forestry.io as a CMS for my little side project.
 tags:
-programming
+- programming
 ---
 So far I've been very happy with the use of forestry when it comes to managing my simple site. Hosting it on github makes it easy to deploy changes fast as I learn Jekyll and Liquid and the content creation tools provided by forestry are neat. More on that later.
 
