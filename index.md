@@ -2,11 +2,6 @@
 title: Home
 layout: default
 ---
-<h3>
-Warning, I've added some very infuriating animations for the 
-<s>fun</s> hell of it
-</h3>
-
 
 <p>Thanks for dropping by this work in progress site, made using
   <a href="http://jekyllrb.com/">Jekyll</a>,
