@@ -240,9 +240,12 @@ p {
   flex: 3;
   margin-left: 0;
   list-style: none;
-
+  //padding: 1em 1em 1em 1em; 
   > li {
     margin-bottom: $spacing-unit;
+    border-bottom: 0.3em solid;
+    border-right: 0.2em solid;
+    box-shadow: 0.3em -0.3em 1em;
   }
 }
 
