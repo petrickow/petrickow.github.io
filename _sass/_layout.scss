@@ -241,12 +241,20 @@ p {
   margin-left: 0;
   list-style: none;
   //padding: 1em 1em 1em 1em; 
-  > li {
-    margin-bottom: $spacing-unit;
-    border-bottom: 0.3em solid;
-    border-right: 0.2em solid;
-    box-shadow: 0.3em -0.3em 1em;
-  }
+    > a {
+        color: black;
+        :hover {
+            color: $grey-color; // TODO: find a soothing colour
+            text-decoration: none;
+        }
+        > li {
+            padding: 1em;
+            margin-bottom: $spacing-unit;
+            border-bottom: 0.3em;
+            border-right: 0.2em solid;
+            box-shadow: 0.1em 0.1em 0.3em;
+        }
+    }
 }
 
 .post-meta {
