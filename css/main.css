@@ -144,6 +144,30 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
+/* 
+** The animation experiment
+@keyframes slidein {
+    from {
+        margin-left: 75%;
+        width: 100%; 
+        font-size: 0%
+
+    }
+    
+    to {
+        margin-left: 0%;
+        width: 100%;
+        font-size: 100%
+
+    }
+}
+
+p {
+    overflow: hidden;
+    animation-duration: 0.3s;
+    animation-name: slidein;
+}
+*/
 /**
  * Site header
  */
@@ -295,8 +319,17 @@ pre {
   flex: 3;
   margin-left: 0;
   list-style: none; }
-  .post-list > li {
-    margin-bottom: 30px; }
+  .post-list > a {
+    color: black; }
+    .post-list > a :hover {
+      color: #828282;
+      text-decoration: none; }
+    .post-list > a > li {
+      padding: 1em;
+      margin-bottom: 30px;
+      border-bottom: 0.3em;
+      border-right: 0.2em solid;
+      box-shadow: 0.1em 0.1em 0.3em; }
 
 .post-meta {
   font-size: 14px;
