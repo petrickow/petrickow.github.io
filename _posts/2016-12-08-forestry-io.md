@@ -2,8 +2,7 @@
 title: Deployment and control in Forestry.io
 date: '2016-12-08 00:00:00'
 layout: post
-ingress:
-- My experience so far using forestry.io as a CMS for my little side project.
+ingress: My experience using forestry.io as a CMS for my little side project.
 tags:
 - programming
 ---
