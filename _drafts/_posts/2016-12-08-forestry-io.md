@@ -1,6 +1,6 @@
 ---
 title: Deployment and control in Forestry.io
-date: '2016-12-08 00:00:00'
+date: 2016-12-08 00:00:00 +0000
 layout: post
 ingress: My experience using forestry.io as a CMS for my little side project.
 tags:
