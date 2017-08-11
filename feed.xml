@@ -6,8 +6,8 @@
 </description>
     <link>http://devduck.me/</link>
     <atom:link href="http://devduck.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Jul 2017 07:28:39 +0000</pubDate>
-    <lastBuildDate>Mon, 24 Jul 2017 07:28:39 +0000</lastBuildDate>
+    <pubDate>Fri, 11 Aug 2017 15:01:30 +0200</pubDate>
+    <lastBuildDate>Fri, 11 Aug 2017 15:01:30 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -18,7 +18,7 @@
 
 &lt;p&gt;It seems Github pages can build Jekyll projects, rendering the need for a system such as forestry.io to build it unnecessary. Forestry is still nice to have for content management, but it would be nice to be able to disable the deploy-step (update: just found the button).&lt;/p&gt;
 </description>
-        <pubDate>Thu, 08 Dec 2016 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 08 Dec 2016 00:00:00 +0100</pubDate>
         <link>http://devduck.me/2016/12/08/forestry-io.html</link>
         <guid isPermaLink="true">http://devduck.me/2016/12/08/forestry-io.html</guid>
         
@@ -31,7 +31,7 @@
         <title>On using forestry and jekyll</title>
         <description>&lt;p&gt;Not having spent much time with either, I won’t say much. Actually, I won’t say nothing at all, but still not much more than this paragraph.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 29 Nov 2016 00:00:00 +0100</pubDate>
         <link>http://devduck.me/2016/11/29/steike.html</link>
         <guid isPermaLink="true">http://devduck.me/2016/11/29/steike.html</guid>
         
@@ -61,7 +61,7 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 05 Jun 2016 00:00:00 +0200</pubDate>
         <link>http://devduck.me/2016/06/05/welcome-to-jekyll.html</link>
         <guid isPermaLink="true">http://devduck.me/2016/06/05/welcome-to-jekyll.html</guid>
         
