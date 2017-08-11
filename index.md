@@ -1,6 +1,8 @@
 ---
 title: Home
 layout: default
+ingress: 'Should this be rich text? '
+tags: []
 ---
 
 <p>Thanks for dropping by this work in progress site, made using
