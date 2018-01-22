@@ -1,0 +1,17 @@
+---
+pages:
+- index.md
+- blog.md
+- about.md
+- _posts/2016-12-08-forestry-io.md
+- _posts/2016-06-05-welcome-to-jekyll.markdown
+- _posts/the-good-programmer.md
+- _posts/2016-11-29-steike.md
+hide_body: false
+fields:
+- type: textarea
+  label: Ingress
+  name: ingress
+- name: tags
+  type: tag_list
+  label: Tags
