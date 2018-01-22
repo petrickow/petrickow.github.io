@@ -1,0 +1,9 @@
+---
+hide_body: false
+fields:
+- type: textarea
+  name: description
+  label: Description
+  config:
+    wysiwyg: true
+    required: false
