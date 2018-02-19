@@ -3,6 +3,7 @@ pages:
 - index.md
 - blog.md
 - about.md
+- _posts/virtualbox-bonanza.md
 - _posts/2016-12-08-forestry-io.md
 - _posts/2016-06-05-welcome-to-jekyll.markdown
 - _posts/the-good-programmer.md
