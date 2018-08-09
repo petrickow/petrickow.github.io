@@ -1,14 +1,7 @@
 ---
-pages:
-- about.md
-- index.md
-- blog.md
-- _posts/virtualbox-bonanza.md
-- _posts/2016-12-08-forestry-io.md
-- _posts/2016-06-05-welcome-to-jekyll.markdown
-- _posts/the-good-programmer.md
-- _posts/2016-11-29-steike.md
+label: Blog post
 hide_body: false
+is_partial: false
 fields:
 - type: textarea
   label: Ingress
@@ -16,3 +9,12 @@ fields:
 - name: tags
   type: tag_list
   label: Tags
+pages:
+- about.md
+- blog.md
+- _posts/2016-12-08-forestry-io.md
+- _posts/2016-06-05-welcome-to-jekyll.markdown
+- _posts/the-good-programmer.md
+- _posts/virtualbox-bonanza.md
+- index.md
+- _posts/2016-11-29-steike.md
